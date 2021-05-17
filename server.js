@@ -12,7 +12,6 @@ app.get("/",function(req, res){
 });
 
 app.post("/", function(req, res){
-    //console.log(req.body.num1); // sending data entered in browser to backend
     var n1 = Number(req.body.num1);
     var n2 = Number(req.body.num2);
     var result = n1+n2;
